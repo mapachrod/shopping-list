@@ -1,7 +1,7 @@
 import { gerarDiaDaSemana } from "./gerarDiaDaSemana.js";
 
 export const editarItem = (elemento) => {
-    let novoItem = prompt("Digite o novo nome do item:");
+    let novoItem = prompt("Write the name of the new item:");
 
     if (novoItem !== null && novoItem.trim() !== "") {
         const itemTextoAtualizado = elemento.querySelector("#item-titulo");
